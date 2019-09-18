@@ -3882,7 +3882,7 @@ input, select, textarea {
 		background-size: 100% 100%;
 	}
 
-		#intro p {
+		/* #intro p {
 			font-size: 1.25em;
 		}
 
@@ -3908,4 +3908,42 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		} */
+
+/* About */
+
+	#about {
+		background-attachment: fixed;
+		background-image: url("images/intro.svg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+		/* #intro p {
+			font-size: 1.25em;
 		}
+
+			@media screen and (max-width: 980px) {
+
+				#intro p br {
+					display: none;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#intro p {
+					font-size: 1em;
+				}
+
+			}
+
+		@media screen and (max-width: 1280px) {
+
+			#intro {
+				background-attachment: scroll;
+			}
+
+		} */
